@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CONTACT PAGE-BLUEBLACK TECHNOLOGY</title>
+    <link rel="icon" type="icon ion-xbox" href="chiller1.png">
+
+    <style>
+       
+        a:hover{
+            background-color: darkred;
+        }
+
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+
+           li {
+          float: left;
+        }
+
+         li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        li a:hover {
+          background-color: #111;
+        }
+
+        .active {
+             background-color: #04AA6D;
+        }
+        .tr:hover {
+            background-color: cyan;
+            
+        }
+        input[type=text], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+
+        input[type=submit] {
+          width: 100%;
+          background-color: #4CAF50;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        div {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        input[type=text]:focus {
+          background-color: lightblue;
+        }
+        textarea {
+          width: 100%;
+          height: 150px;
+          padding: 12px 20px;
+          box-sizing: border-box;
+          border: 2px solid #ccc;
+          border-radius: 4px;
+          background-color: #f8f8f8;
+          font-size: 16px;
+          resize: none;
+        }
+
+    </style>
+</head>
+<body >
+    <h3 style="text-align:center;">CONTACT FORM</h3>
+
+<div>
+  <form action=" mailto: i.e. mailto:uttamsolanki144@gmail.com">
+    <label for="fname">First Name :</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name :</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="EMAIL">EMAIL :</label>
+    <input type="text" id="email" name="EMAIL" placeholder="enter your email..">
+
+    <label for="massage">MASSAGE :</label>
+    <!-- <input type="text" id="massage" name="lastname" placeholder="enter massage here.." style="height:90px"> -->
+    <textarea placeholder="enter massage here.."></textarea>
+
+    <label for="country">Country :</label>
+    <select id="country" name="country" disabled>
+        <option value="india">INDIA </option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+    
+</body>
+</html>
